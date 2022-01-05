@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&family=Roboto+Mono&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header-div {
+    background-color: #23232e;
+}
+
+a:hover {
+    opacity: 0.7;
+    color: #33a3ff;
+}
+
+a {
+    color: white;
+}
+
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#ant_cicada {
+    width: 100%;
+    height: 100%;
+}
+
+#home_section {
+    position: relative;
+    top: 2.5em;
+    padding-bottom: 4em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sytem-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 10px;
+}
+
+main {
+    background-size: cover;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: -10%;
+}
+
+.storie_font {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    color: #111;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: underline yellow;
+}
+
+.text {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    color: #111;
+    text-align: center;
+}
+
+.direction_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.image_1 {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.winter_part {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    color: #111;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: underline #34ace0;
+    padding-bottom: 10px;
+}
+
+.image_2 {
+    width: 100%;
+    height: 100%;
+}
+
+.final_part {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    color: #111;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: underline #2c2c54;
+    padding-top: 40px;
+}
+
+button {
+    background-color: #d2dae2;
+    width: 28%;
+    height: 35px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
